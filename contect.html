@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>TecZoneBinity服务器</title>
+		<style type="text/css">
+			body{
+				text-align: center;
+				background-image: url(./picture/bg1.png);
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-position: top;
+			}
+			.container{
+				margin-left: auto;
+				margin-right: auto;
+				width: 1000px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<!--navbar-->
+			<nav class="navbar">
+				<style>
+					#navbar h1, h2, h3, h4, h5, p{
+						color: #aaaaaa;
+					}
+					.navbar{
+						background-color: rgba(54, 90, 186, 0.3);
+					}
+					#navbar-value{
+						list-style-type: none;
+					}
+					#navbar-value li{
+						display: inline-block;
+					}
+				</style>
+				<div class="navbar">
+					<ul id="navbar-value">
+						<li>
+							<a href="./index.html">
+								<img src="./picture/logo.png" alt="TecZoneBinity" width="50px" height="50px"/>
+							</a>
+						</li>
+						<li>
+							<a href="./index.html">
+								<h5>主页</h5>
+								<p>服务器官网</p>
+							</a>
+							
+						</li>
+						<li>
+							<a href="./show.html">
+								<h5>作品展示</h5>
+								<p>服务器环境</p>
+							</a>
+						</li>
+						<li>
+							<a href="./members.html">
+								<h5>成员名单</h5>
+								<p>友好的成员队伍</p>
+							</a>
+						</li>
+						<li>
+							<a href="./contect.html">
+								<h5>联系我们</h5>
+								<p>欢迎加入我们</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			
+			<!--link-->
+			<style type="text/css">
+				.link{
+					background-color: rgba(48, 87, 112, 0.3);
+					text-align: center;
+					float: left;
+					width: 300px;
+				}
+				#link-title{
+					color: #00aaff;
+				}
+				#link-button{
+					background-color: rgba(0,0,0,0);
+					border: 1px solid #ffffff;
+					width: 200px;
+					height: 76px;
+				}
+				h4{
+					color: #ffffff;
+				}
+			</style>
+			<div class="link">
+				<h2 id="link-title">B站传送门</h2>
+				<h4>
+					<a href="https://space.bilibili.com/1826019557">
+						<button id="link-button">
+							<h4>服主“暗夜之枭”的B站空间</h4>
+						</button>
+					</a>
+				</h4>
+				<h4>
+					<a href="https://space.bilibili.com/559987782">
+						<button id="link-button">
+							<h4>管理员“hcdlsh”的B站空间</h4>
+						</button>
+					</a>
+				</h4>
+				<h4>
+					<button id="link-button" onclick="window.alert('暂无');">
+						<h4>管理员“Young912”的B站空间</h4>
+					</button>
+				</h4>
+			</div>
+			
+			<!--join-->
+			<style type="text/css">
+				.join{
+					background-color: rgba(48, 87, 112, 0.3);
+					text-align: center;
+					float: left;
+					width: 650px;
+					margin-left: 50px;
+				}
+				#join-title{
+					color: #00aaff;
+				}
+				#join-table{
+					margin-left: 105px;
+				}
+				#join-table td{
+					width: 220px;
+				}
+				#join-button{
+					background-color: rgba(0,0,0,0);
+					border: 1px solid #ffffff;
+					width: 200px;
+				}
+			</style>
+			<div class="join">
+				<h2 id="join-title">加入我们请戳这里！</h2>
+				<table id="join-table">
+					<tr>
+						<td>
+							<img src="./picture/contect/QQ.png" width="180px" height="180px"/>
+						</td>
+						<td>
+							<img src="./picture/contect/forum.png" width="180px" height="180px"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<h4>
+								<a href="https://jq.qq.com/?_wv=1027&k=U0Wjswut">
+									<button id="join-button">
+										<h4>加入我们的官方QQ群</h4>
+									</button>
+								</a>
+							</h4>
+						</td>
+						<td>
+							<h4>
+								<a href="http://tzbserver.mbbs.cc/">
+									<button id="join-button">
+										<h4>加入我们的官方论坛</h4>
+									</button>
+								</a>
+							</h4>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<!--step-->
+			<style type="text/css">
+				.step{
+					background-color: rgba(48, 87, 112, 0.3);
+					text-align: center;
+					width: 1000px;
+					margin-top: 400px;
+				}
+				#step-title{
+					color: #00aaff;
+				}
+				#step-value{
+					text-align: left;
+					margin-left: 100px;
+				}
+				#step-value h2, h4{
+					color: #ffffff;
+				}
+			</style>
+			<div class="step">
+				<h2 id="step-title">审核流程</h2>
+				<div id="step-value">
+					<h2>审核大致分四个流程：</h2>
+					<h4>1，论坛提交申请帖，24h内若通过则会收到回复。</h4>
+					<h4>2，QQ群聊二审，和审核员谈论一些主观想法，内容不定，可能伴随语音审核。</h4>
+					<h4>3，试用期，为期10天，在此期间，你不属于TZB内服成员。</h4>
+					<h4>4，正式接纳，成为内服成员。</h4>
+					<br/>
+				</div>
+			</div>
+			
+			<!--bottom-->
+			<style type="text/css">
+				.bottom{
+					background-color: #000000;
+					text-align: center;
+					width: 1000px;
+				}
+				.bottom p{
+					color: #ffffff;
+				}
+			</style>
+			<div class="bottom">
+				<p>鸣谢：
+					<a href="https://space.bilibili.com/317707977">信标Scrohild</a>编写了整个网站；
+					<a href="https://space.bilibili.com/559987782">hcdlsh</a>提供了大量图片；
+					<a href="https://space.bilibili.com/1826019557">暗夜之枭</a>提供了部分图片。
+				</p>
+			</div>
+		<!---->
+		</div>
+	</body>
+</html>
